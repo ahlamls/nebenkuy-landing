@@ -1,0 +1,50 @@
+.bg-light {
+  background-color: rgba(255,255,255,0.5) !important;
+}
+.navlogo {
+  height : 29px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.headnyut{
+	margin: 0;
+	width: 100%;
+
+    padding:20px;
+  border-radius:10px;
+	height: 100%;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@media only screen and (min-width: 768px) {
+  .tengah {
+    position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+  }
+  .textnyut {
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  .headnyut {
+    padding-top:50px !important;
+      padding-bottom:50px !important;
+  }
+}
