@@ -25,20 +25,24 @@
     <form class="form-inline my-2 my-lg-0">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item ">
+          <a class="nav-link" href="index.php">Home</a>
+        </li>
+        <li class="nav-item ">
           <a class="nav-link" href="https://nebenkuy.blogspot.com/">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Tiket Transportasi</a>
+          <a class="nav-link" href="tiket.php">Tiket Transportasi</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Ikut Tidur</a>
+          <a class="nav-link" href="salman.php">Ikut Tidur</a>
         </li>
 
 
         <li class="nav-item">
           <a class="nav-link" href="../culayCMS">Titip</a>
         </li>
+
       </ul>
 
   </div>
